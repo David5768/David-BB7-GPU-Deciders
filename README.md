@@ -2,7 +2,7 @@
 
 CUDA-accelerated deciders for the Busy Beaver BB(7) problem. Three independent tools that run on any NVIDIA GPU with 8GB+ VRAM.
 
-**Supported GPUs**: RTX 30-series, 40-series, 50-series, and all CUDA-capable cards (compute capability 5.0+).
+**Supported GPUs**: RTX 30-series, 40-series, 50-series, and all 12.8+ CUDA-capable cards.
 
 ---
 
