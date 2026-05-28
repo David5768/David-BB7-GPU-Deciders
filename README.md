@@ -19,7 +19,6 @@ CUDA-accelerated deciders for the Busy Beaver BB(7) problem. Three independent t
 - [Command Reference](#command-reference)
 - [Troubleshooting](#troubleshooting)
 - [How It Works](#how-it-works)
-- [Credits](#credits)
 
 ---
 
@@ -435,12 +434,3 @@ Each thread checks elapsed cycles every 1024 iterations. If exceeded, it writes 
 - **Windows**: No, you compile with `nvcc` directly. You can delete `build.sh` if you want.
 
 ---
-
-## Credits
-
-Deciders based on the [bbchallenge.org](https://bbchallenge.org/) collaborative project. CUDA implementations by the community.
-
-Algorithm references:
-- Translated Cyclers: [bbchallenge.org](https://bbchallenge.org/)
-- NGramCPS: Closed Position Set framework for Turing machine non-halting proofs
-- Macro Machine simulation: K-step acceleration technique
